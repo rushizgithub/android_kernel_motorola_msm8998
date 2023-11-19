@@ -63,7 +63,6 @@ jobs:
         run: |
            git config --global user.email "rushiranpise17@gmail.com"
            git config --global user.name "Rushi Ranpise"
-           curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s main
 
       - name: Setup Ccache
         uses: hendrikmuhs/ccache-action@v1.2
