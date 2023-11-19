@@ -9,7 +9,7 @@ jobs:
   build:
     strategy:
       matrix:
-        device: [evert]
+        device: [chef]
         
     name: Build-${{ matrix.device }}
     runs-on: ubuntu-latest
