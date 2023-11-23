@@ -47,7 +47,7 @@ jobs:
         with:
           submodules: true
           repository: crdroidandroid/android_kernel_motorola_msm8998
-          ref: 14.0
+          ref: "14.0"
           path: kernel-source
 
       - name: Checkout Anykernel
